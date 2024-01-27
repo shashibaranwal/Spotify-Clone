@@ -1,0 +1,179 @@
+ @import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600;700&family=PT+Sans&family=Poppins:wght@200;300;400;500;800&display=swap');
+
+body{
+    background-color: black;
+}
+
+.container{
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 3.2fr;
+    column-gap: 4px;
+
+}
+
+.box{
+    display: grid;
+    row-gap: 8px;
+}
+.box1{
+    background-color: rgb(22, 22, 22);
+    width: 23vw;
+    height: 24vh;
+    border-radius: 8px;
+    gap: 0px;
+}
+#logo-spotify{
+    width: 80px;
+    margin-top: 20px;
+    margin-left: 25px;
+    cursor: pointer;
+}
+
+.nav-spotify{
+    display: flex;
+    align-items: center;
+    
+}
+.home-spotify{
+    width: 35px;
+    margin-top: 0px;
+    margin-left: 19px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+    cursor: pointer;
+}
+.search{
+    color: grey;
+}
+.search:hover{
+    color: white;
+    cursor: pointer;
+}
+.box2{
+    display: grid;
+    grid-template-rows: 1fr 2fr 2fr 1fr;
+    background-color: rgb(22, 22, 22);
+    width: 23vw;
+    height: 61vh;
+    border-radius: 8px;
+    text-wrap: wrap;
+}
+.box2-head{
+    /* background-color: aqua; */
+      position: sticky;
+      top: 0px;
+      margin: 0px;
+      padding: 0px;
+    max-height: 30px;
+    margin: 15px 22px;
+    margin-bottom: 0px;
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(114, 114, 114);
+    position: sticky;
+}
+.box2-head:hover{
+    color: white;
+    cursor: pointer;
+}
+
+
+.box2-body1{
+    background-color: #509bf5;
+    padding-left: 15px;
+    padding-right: 15px;
+    /* margin-top: 10px; */
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9em;
+    height: 110px;
+    overflow: auto;
+    overflow: hidden auto;
+
+}
+
+.box2-body2{
+    color: white;
+    font-size: 0.7em;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 0px;
+    margin: 0;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+.box2-body2 > p{
+    padding: 0;
+    margin: 0;
+}
+.box2-body2 > p:hover{
+    cursor: pointer;
+}
+
+.box2-body3{
+    padding: 20px;
+}
+.box2-body3 > span{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+    padding: 5px 20px;
+    border: 1px solid rgb(126, 126, 126);
+    border-radius: 20px;
+    gap: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 70px;
+}
+.box2-body3 > span:hover{
+    border: 1.2px solid white;
+    /* font-weight: bold; */
+    font-size: 1.02em;
+    cursor: pointer;
+}
+
+.content-box{
+    background-color: rgb(22, 22, 22);
+    width: 75.1vw;
+    height: 86.2vh;
+    border-radius: 8px;
+    column-gap: 5px;
+}
+
+.footer{
+    margin-bottom: 0px;
+    margin-top: 8px;
+}
+.footer-box{
+    margin-bottom: 0.5px;
+    height: 10vh;
+    border-radius: 2px;
+    row-gap: 0px;
+    background-image: linear-gradient(90deg,#af2896,#509bf5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.footer-box>div{
+    margin-left: 20px;
+}
+.footer-box>span{
+    text-align: right;
+    position: relative;
+    float: right;
+    overflow:hidden;
+    padding: 5px 10px;
+    overflow-clip-margin: inherit;
+}
+.footer-box>span>button{
+    padding: 5px 10px;
+}
