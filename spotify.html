@@ -9,33 +9,52 @@
   <script src="https://kit.fontawesome.com/190a8b6d58.js" crossorigin="anonymous"></script>
   <body>
     <div class="container">
+<!-- Side Nav Bar -->
       <header class="sidebar">
         <div class="box">
           <div class="box box1">
-            <!-- <img id="logo-spotify" src="asset/logo.spotify-01.png" alt="logo"/> -->
-            <h1>Dashboard</h1>
-            <div class="nav-spotify">
-              <i class="fa-solid fa-house"></i>
-              <span class="home-spotify">Home</span>
-            </div>
-            <div class="nav-spotify">
+<!-- Spotify Icon -->
+            <a href="spotify.html"><img id="logo-spotify" src="assets/spotify_logo.png" alt="logo"/></a>
+<!-- Home Icon -->
+            <a href="spotify.html">
+              <div id="homeIcon" class="nav-spotify home-spotify">
+                <i class="fa-solid fa-house"></i>    
+                <span class="">Home</span>
+              </div>
+            </a>
+<!-- Search Icon -->
+            <a href="">
+              <div id="searchIcon" class="nav-spotify home-spotify">
                 <i class="fa-solid fa-magnifying-glass"></i>
-              <span class="home-spotify search">Search</span>
-            </div>
+                <span class=" search">Search</span>
+              </div>
+            </a>
           </div>
           <div class="box box2">
+<!-- Your library icon -->
             <div class="box2-head">
-                <i class="fa-solid fa-bookmark"></i>
-              <span>Your Library</span>
-              <span><img src="asset/plus.svg" alt=""></span>   
+              <i class="fa-solid fa-list yourLibrary"></i>
+              <span class="yourLibrary">Your Library</span>
+              <i class="fa-solid fa-plus"></i>  
             </div>
+<!-- Create Playlist Section -->
             <div class="box2-body1">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab nihil, alias quidem natus, exercitationem necessitatibus velit aspernatur recusandae, facilis qui ducimus earum nobis hic sapiente autem. Neque minima cum assumenda placeat ex aliquid rerum necessitatibus id! Fugit minima hic, dolor veritatis libero deserunt vero delectus saepe accusamus cum ipsam cumque illo fugiat itaque obcaecati odio ea consectetur amet praesentium, ratione eos! Maxime, ex impedit? Reprehenderit laboriosam praesentium dignissimos omnis doloremque nam quasi eos deserunt obcaecati repellendus ratione libero accusamus voluptatibus labore, voluptates atque iusto inventore, ipsam tempore aspernatur animi quae. Quis velit ipsam totam ea non alias, quae amet incidunt! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos deleniti est maiores molestias repellat quibusdam, quaerat doloremque praesentium inventore, quo  modi. Assumenda, cupiditate minus aspernatur doloribus earum mollitia maxime, nihil repellendus error odio perspiciatis facere, dolorum voluptatum rem exercitationem. Aliquid.
+              <div class="box2-body1-box1">
+                <h4>Create your first playlist</h4>
+                <p>It's easy, we'll help you</p>
+                <span>Create Playlist</span>
+              </div>
+              <div class="box2-body1-box2">
+                <h4>Let's find some podcasts to follow</h4>
+                <p>We'll keep you updated on new episodes</p>
+                <span>Browse podcasts</span>
+              </div>
             </div>
             <div class="box2-body2">
               <p>Legal</p><p>Privacy Center</p><p>Privacy policy</p><p>Cookies</p><p>About Ads</p><p>Accessibility</p><p>Cookies</p>
             </div>
-            <div class="box2-body3"><span><img src="asset/web-globe.svg">English</span></div>
+<!-- Globe and English -->
+            <div class="box2-body3"><span><i class="fa-solid fa-globe"></i>English</span></div>
           </div>
         </div>
       </header>
@@ -45,12 +64,12 @@
         </div>
       </main>
     </div>
-    <!-- <footer class="footer">
+    <footer class="footer">
       <div class="footer-box">
         <div>Preview of Spotify</div>
         <div>Sign up to get unlimited songs and podcasts with occasional ads. No credit card needed.</div>
         <span><button>Sign up free</button></span>
       </div>
-    </footer> -->
+    </footer>
   </body>
 </html>
