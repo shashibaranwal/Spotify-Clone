@@ -1,5 +1,8 @@
- @import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@400;500;600;700&family=PT+Sans&family=Poppins:wght@200;300;400;500;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@400;500;600;700&family=PT+Sans&family=Poppins:wght@200;300;400;500;600;800&display=swap');
 
+*{
+    font-family: "Poppins", sans-serif;
+}
 body{
     background-color: black;
 }
@@ -246,6 +249,7 @@ body{
     height: 86.2vh;
     border-radius: 8px;
     column-gap: 5px;
+    overflow: hidden auto;
 }
 
 .footer{
@@ -341,7 +345,7 @@ body{
     width: 1.5px;
     height: 22px;
     background-color: grey;
-    /* border: 1px solid grey */
+
     
 }
 /* sign up btn */
@@ -374,11 +378,63 @@ body{
     cursor: pointer;
 }
 
-.playlist1{
-    height: 30px;
-    width: 50px;
-    background-color: white;
+/* Zzzz */
+#Zzzz{
+    color: white;
+    margin: 3px 25px;
+    margin-bottom: 4px;
+    font-weight: 600;
 }
+.content-box-container{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/* Playlists box */
+.content-box-container-playlists{
+ background-color: rgb(29, 29, 29);
+ height: 290px;
+ width: 210px;
+ margin: 0px 20px;
+ margin-bottom: 50px;
+ margin-right: 3px;
+ border-radius: 8px;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+
+}
+
+/* Playlist box hover*/
+.content-box-container-playlists:hover{
+    background-color: rgb(46, 45, 45);
+}
+
+/* Playlist Image */
+.playlist-image{
+    margin-top: 13px;
+    margin-bottom: 17px;
+    height: 180px;
+    width: 180px;
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 3px 3px 3px 2px rgb(20, 20, 20);
+    margin-left: 14px;
+
+}
+.content-box-container-playlists p{
+    margin: 3px 14px;
+   
+}
+.content-box-container-playlists p:last-child{
+    font-size: 13px;
+    color: grey;
+    margin-bottom: 15px;
+}
+
+
 
 
 
